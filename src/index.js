@@ -155,7 +155,7 @@ const shoppingProducts = [
           <td>{this.props.item.name}</td>
           <td>£{this.props.item.price}</td>
           <td>
-            <input type="number" name="quantity" min="1" max="10" onChange={this.handleQuantityChange} />
+            <input type="number" name="quantity" min="1" max="20" onChange={this.handleQuantityChange} />
           </td>
           <td>£{this.props.item.price * this.props.item.quantityInCart}</td>
           <td><i className="fas fa-trash"
